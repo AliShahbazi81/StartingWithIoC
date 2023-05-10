@@ -16,7 +16,7 @@ public class DemoController {
     // Define a constructor for Dependency Injections
     // For avoiding ambiguous, we can either use @Qualifier or @Primary
     // ! We can use @Primary just once for subclasses of the Interface
-    public DemoController(@Qualifier("tennisCoach") ICoach coach) {
+    public DemoController(@Qualifier("aquatic") ICoach coach) {
         _coach = coach;
     }
 
