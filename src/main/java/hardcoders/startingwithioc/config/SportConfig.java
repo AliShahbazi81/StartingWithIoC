@@ -1,7 +1,7 @@
 package hardcoders.startingwithioc.config;
 
-import hardcoders.startingwithioc.Services.ICoach;
-import hardcoders.startingwithioc.Services.SwimCoach;
+import hardcoders.startingwithioc.Services.Coaches.ICoach;
+import hardcoders.startingwithioc.Services.Coaches.SwimCoach;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

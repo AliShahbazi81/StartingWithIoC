@@ -1,6 +1,5 @@
-package hardcoders.startingwithioc.Services;
+package hardcoders.startingwithioc.Services.Coaches;
 
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component

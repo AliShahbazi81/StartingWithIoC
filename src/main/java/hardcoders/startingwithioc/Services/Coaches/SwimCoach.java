@@ -1,4 +1,4 @@
-package hardcoders.startingwithioc.Services;
+package hardcoders.startingwithioc.Services.Coaches;
 
 public class SwimCoach implements ICoach{
     @Override
