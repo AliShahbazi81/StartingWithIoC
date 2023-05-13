@@ -23,13 +23,14 @@ public class StartingWithIoCApplication {
     @Bean
     public CommandLineRunner commandLineRunner(IStudentService studentService) {
         return runner -> {
-//            createStudent(studentService);
+            createStudent(studentService);
 //            readStudent(studentService);
 //            queryForStudents(studentService);
 //            queryForStudentsByLastName(studentService);
 //            updateStudent(studentService);
 //            deleteStudent(studentService);
-            deleteAllStudents(studentService);
+//            deleteAllStudents(studentService);
+
         };
     }
 
