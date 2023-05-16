@@ -62,6 +62,10 @@ public class Student {
         this.email = email;
     }
 
+    public String getEmail() {
+        return this.email;
+    }
+
     // Define toString() method
 
 

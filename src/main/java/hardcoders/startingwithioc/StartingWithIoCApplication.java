@@ -112,7 +112,6 @@ public class StartingWithIoCApplication {
         System.out.println("The id of the created student is: " + studentId);
 
         // Retrieve student based on the id: Primary key
-
         System.out.println("Retrieving student with id: " + studentId);
         Student myStudent = studentService.findById(studentId);
 
@@ -125,10 +124,12 @@ public class StartingWithIoCApplication {
     {
         // Create the student object
         System.out.println("Creating new student object...");
+        // Creating a temp student in order to save it in the database
         Student tempStudent = new Student("Paul", "Wall", "Paul@gmail.com");
 
         // save the Student object
         System.out.println("Saving the student...");
+        // For saving the student in the database
         studentService.save(tempStudent);
 
         // Display Id of the saved student
